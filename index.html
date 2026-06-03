@@ -36,7 +36,7 @@
 
   <!-- Auto-lists files in /posts via the public GitHub API. Replace USER/REPO below. -->
   <script>
-    const REPO = 'YOUR_USER/YOUR_REPO'; // e.g. 'karishma/blog'
+    const REPO = 'Karishma-devani/blog'; // e.g. 'karishma/blog'
     const el = document.getElementById('posts');
     fetch(`https://api.github.com/repos/${REPO}/contents/posts`)
       .then(r => r.ok ? r.json() : [])
